@@ -1,4 +1,4 @@
-# function
+
 def n_sur_bestscore(total):
     whole_number = total / 3# divide by 3 because total is a summation of 3 digits
     if total % 3 > 0:
@@ -6,7 +6,7 @@ def n_sur_bestscore(total):
     #adding one because numbers in triplet score differ by 1
     return whole_number# return whole number for uniform triplet score
 
-print n_sur_bestscore(20)
+
 
 
 
@@ -24,7 +24,7 @@ def sur_bestscore(total):
     #for remainder == 0
     return b
     
-print sur_bestscore(29)
+
 
 
 
