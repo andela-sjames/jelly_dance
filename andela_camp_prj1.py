@@ -1,4 +1,4 @@
-
+# function
 def n_sur_bestscore(total):
     whole_number = total / 3# divide by 3 because total is a summation of 3 digits
     if total % 3 > 0:
